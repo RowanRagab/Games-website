@@ -1,0 +1,39 @@
+:root {
+    --mainColor: #272b30;
+    
+}
+
+body {
+    background-color: var(--mainColor);
+    font-family: 'Shantell Sans', cursive;
+}
+/* nav */
+nav {
+    background-color: #3a497b;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link,
+nav span {
+    color: white;
+}
+/* cards */
+.container .card .hover-bg {
+    background-color: rgba(7, 7, 7, 0.312);
+    display: block;
+}
+
+.container .card:hover .hover-bg {
+    display: none;
+}
+
+.container .card {
+    transition: transform .5s;
+}
+
+.container .card:hover {
+    transform: scale(1.1);
+}
+/* details */
+.popUp {
+    background-color: var(--mainColor);
+}
